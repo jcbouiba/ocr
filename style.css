@@ -1,0 +1,62 @@
+/* Liens polices */
+    .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .montserrat {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+/* Styles */
+    /* Body */
+    body {
+        font-family: Manrope;
+        font-size: 1em;
+        background-color: #1F2039;
+    }
+    /* Titre */
+        h1 {
+            font-size: 3.5em;
+            color: #a5b4fc;
+            font-family: Montserrat;
+        }
+    /* Liens */
+        a {
+            color: #242424;
+            text-decoration: none;
+        }
+    /* EM */
+        em {
+            color: #A5B4FC;
+            font-style: normal;
+        }
+    /* Paragraphes */
+        p {
+            font-size: 1.1em;
+            color: #f9f8ff;
+        }
+    /* H2, li */
+        h2, li {
+            color: #f9f8ff;
+        }
+    /* Fond blanc */
+        .blanc {
+            background-color: white;
+        }
+     /* Dégradé 2 */
+        .d2 {
+            color: white;
+            background: linear-gradient(#8E86B5, #ACAEED);
+            border-radius: 50px;
+        }
+    /* Bordure 1 */
+        .b1 {
+            border-right: solid #8e86b5 1px;
+            border-bottom: solid #8e86b5 1px;
+        }
