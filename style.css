@@ -20,41 +20,62 @@
         font-size: 1em;
         background-color: #1F2039;
     }
+
     /* Titre */
         h1 {
             font-size: 3.5em;
             color: #a5b4fc;
             font-family: Montserrat;
         }
+
     /* Liens */
         a {
             color: #242424;
             text-decoration: none;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
     /* EM */
         em {
             color: #A5B4FC;
             font-style: normal;
         }
+
     /* Paragraphes */
         p {
             font-size: 1.1em;
             color: #f9f8ff;
         }
+
     /* H2, li */
         h2, li {
             color: #f9f8ff;
         }
+
     /* Fond blanc */
         .blanc {
             background-color: white;
         }
+
+        .blanc:hover {
+            opacity: 0.5;
+        }
+
      /* Dégradé 2 */
+     .d2:hover {
+        background: linear-gradient(#696484, #8788BA);
+        text-decoration: none;
+    }
+    
         .d2 {
             color: white;
             background: linear-gradient(#8E86B5, #ACAEED);
             border-radius: 50px;
         }
+
     /* Bordure 1 */
         .b1 {
             border-right: solid #8e86b5 1px;
